@@ -40,14 +40,15 @@ internal sealed class ReservarAlquilerCommandHandler : ICommandHandler<ReservarA
         ReservarAlquilerCommand request,
         CancellationToken cancellationToken)
     {
-        var user = await _userRepository.GetByIdAsync(request.userId, cancellationToken);
+        var userId = new UserId(request.userId);
+        var user = await _userRepository.GetByIdAsync(userId, cancellationToken);
 
         if (user is null)
         {
             return Result.Failure<Guid>(UserErrors.NotFound);
         }
-
-        var vehiculo = await _vehiculoRepository.GetByIdAsync(request.vehiculoId, cancellationToken);
+        var vehiculoId = new VehiculoId(request.vehiculoId);
+        var vehiculo = await _vehiculoRepository.GetByIdAsync(vehiculoId , cancellationToken);
         if (vehiculo is null)
         {
             return Result.Failure<Guid>(VehiculoErrors.NotFound);
@@ -65,7 +66,7 @@ internal sealed class ReservarAlquilerCommandHandler : ICommandHandler<ReservarA
 
             var alquiler = Alquiler.Reservar(
                 vehiculo,
-                user.Id,
+                user.Id!,
                 duracion,
                 _dateTimeProvider.currentTime,
                 _precioService);
@@ -74,7 +75,7 @@ internal sealed class ReservarAlquilerCommandHandler : ICommandHandler<ReservarA
 
             await _unitOfWork.SaveChangesAsync(cancellationToken);
 
-            return alquiler.Id;
+            return alquiler.Id!.Value;
         }
         catch (DBConcurrencyException)
         {

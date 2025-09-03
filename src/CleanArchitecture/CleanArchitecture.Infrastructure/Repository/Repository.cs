@@ -3,8 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CleanArchitecture.Infrastructure.Repository;
 
-internal abstract class Repository<T>
-where T : Entity
+internal abstract class Repository<TEntity, TEntityId>
+where TEntity : Entity<TEntityId>
+where TEntityId: class
 {
 
     protected readonly ApplicationDbContext DbContext;
@@ -14,15 +15,15 @@ where T : Entity
         DbContext = dbContext;
     }
 
-    public async Task<T?> GetByIdAsync(
-        Guid id,
+    public async Task<TEntity?> GetByIdAsync(
+        TEntityId id,
         CancellationToken cancellationToken)
     {
-        return await DbContext.Set<T>()
+        return await DbContext.Set<TEntity>()
             .FirstOrDefaultAsync(x => x.Id == id, cancellationToken);
     }
 
-    public void Add(T entity)
+    public void Add(TEntity entity)
     {
         DbContext.Add(entity);
     }

@@ -12,6 +12,10 @@ internal sealed class VehiculoConfiguration : IEntityTypeConfiguration<Vehiculo>
     builder.ToTable("vehiculos");
     builder.HasKey(vehiculo => vehiculo.Id);
 
+
+    builder.Property(vehiculo => vehiculo.Id)
+      .HasConversion(vehiculoId => vehiculoId!.Value, value => new VehiculoId(value));    
+
     builder.OwnsOne(vehiculo => vehiculo.Direccion);
 
     builder.Property(vehiculo => vehiculo.Modelo)
