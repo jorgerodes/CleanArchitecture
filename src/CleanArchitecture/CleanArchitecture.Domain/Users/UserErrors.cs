@@ -9,9 +9,14 @@ public static class UserErrors
         "User.NotFound",
         "No existe usuario con ese id"
     );
-     public static Error InvalidCredencials = new(
-        "User.InvalidCredencials",
-        "Credenciales incorrectas"
+    public static Error InvalidCredencials = new(
+       "User.InvalidCredencials",
+       "Credenciales incorrectas"
+   );
+    
+        public static Error AlreadyExists = new(
+        "User.AlreadyExists",
+        "Ya existe un usuario con ese email"
     );
     
 

@@ -63,3 +63,4 @@ C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.
 C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\System.CodeDom.dll
 C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Bogus.dll
 C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\obj\Debug\net8.0\CleanArchitecture.Api.sourcelink.json
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
