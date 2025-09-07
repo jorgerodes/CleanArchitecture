@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lhF/tS7V0lc=",
+  "dgSpecHash": "9lFHNPUWztw=",
   "success": true,
-  "projectFilePath": "c:\\CleanArchitecture\\src\\CleanArchitecture\\CleanArchitecture.Api\\CleanArchitecture.Api.csproj",
+  "projectFilePath": "C:\\CleanArchitecture\\src\\CleanArchitecture\\CleanArchitecture.Api\\CleanArchitecture.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jorge\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\bogus\\34.0.1\\bogus.34.0.1.nupkg.sha512",
