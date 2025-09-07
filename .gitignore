@@ -1,0 +1,17 @@
+# Ignorar archivos de compilación
+bin/
+obj/
+
+# Ignorar archivos de configuración de usuario
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar carpetas de dependencias
+node_modules/
+
+.containers/
