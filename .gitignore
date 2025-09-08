@@ -15,3 +15,5 @@ obj/
 node_modules/
 
 .containers/
+src/CleanArchitecture/CleanArchitecture.Api/bin/
+src/CleanArchitecture/CleanArchitecture.Application/bin/Debug/net8.0/CleanArchitecture.Application.pdb

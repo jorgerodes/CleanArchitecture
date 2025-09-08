@@ -6,13 +6,13 @@ using CleanArchitecture.Application.Abstractions.Authentication;
 using CleanArchitecture.Infrastructure;
 using CleanArchitecture.Infrastructure.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-.AddJwtBearer();
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer();
 
 builder.Services.ConfigureOptions<JwtOptionsSetup>();
 builder.Services.ConfigureOptions<JwtBearerOptionsSetup>();
@@ -22,6 +22,8 @@ builder.Services.AddTransient<IJwtProvider, JwtProvider>();
 
 
 builder.Services.AddAuthorization();
+builder.Services.AddSingleton<IAuthorizationHandler, PermissionAuthorizationHandler>();
+builder.Services.AddSingleton<IAuthorizationPolicyProvider, PermissionAuthorizationPolicyProvider>();
 
 
 builder.Services.AddEndpointsApiExplorer();
@@ -45,6 +47,8 @@ app.UseCustomExtensionHandler();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+
 
 
 app.MapControllers();
