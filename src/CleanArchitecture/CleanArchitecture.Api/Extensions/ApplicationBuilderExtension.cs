@@ -2,6 +2,7 @@
 using CleanArchitecture.Api.Middleware;
 using CleanArchitecture.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using Npgsql.Replication;
 
 namespace CleanArchitecture.Api.Extensions;
 
@@ -31,7 +32,15 @@ public static class ApplicationBuilderExtensions
     public static void UseCustomExtensionHandler(this IApplicationBuilder app)
     {
         app.UseMiddleware<ExceptionHandlingMiddleware>();
+
     }
+
+    public static IApplicationBuilder UseRequestContextLogging(this IApplicationBuilder app)
+    {
+        app.UseMiddleware<RequestContextLoggingMiddleware>();
+        return app;
+
+    }    
 
  
 }

@@ -1,15 +1,19 @@
 using CleanArchitecture.Application.Abstractions.Messaging;
+using CleanArchitecture.Domain.Abstractions;
 using MediatR;
 using Microsoft.Extensions.Logging;
+using Serilog.Context;
 
 namespace CleanArchitecture.Application.Abstractions.Behaviors;
 
 public class LoginBehavior<TRequest, TResponse>
-: IPipelineBehavior<TRequest, TResponse> where TRequest : IBaseCommand
+: IPipelineBehavior<TRequest, TResponse> 
+where TRequest : IBaseRequest
+where TResponse: Result
 {
-    private readonly ILogger<TRequest> _logger;
+    private readonly ILogger<LoginBehavior<TRequest,TResponse>> _logger;
 
-    public LoginBehavior(ILogger<TRequest> logger)
+    public LoginBehavior(ILogger<LoginBehavior<TRequest, TResponse>> logger)
     {
         _logger = logger;
     }
@@ -23,15 +27,28 @@ public class LoginBehavior<TRequest, TResponse>
 
         try
         {
-            _logger.LogInformation($"Ejecutando el command request {name}");
-
+            _logger.LogInformation($"Ejecutando el request {name}", name);
             var result = await next();
-            _logger.LogInformation($"El commando {name} se ejecutó exitosamente");
+
+            if (result.IsSuccess)
+            {
+                _logger.LogInformation($"El request {name} fue exitoso", name);
+            }
+            else
+            {
+                using (LogContext.PushProperty("Error", result.Error, true))
+                {
+                     _logger.LogError($"El request {name} tiene errores", name);
+                }
+               
+            }
+
+            _logger.LogInformation($"El request {name} se ejecutó exitosamente", name);
             return result;
         }
         catch (Exception exception)
         {
-            _logger.LogError(exception, $"El comando {name} tuvo errores");
+            _logger.LogError(exception, $"El request {name} tuvo errores",name);
             throw;
         }      
     }

@@ -64,3 +64,15 @@ C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.
 C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Bogus.dll
 C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\obj\Debug\net8.0\CleanArchitecture.Api.sourcelink.json
 C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\appsettings.Test.json
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Serilog.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
