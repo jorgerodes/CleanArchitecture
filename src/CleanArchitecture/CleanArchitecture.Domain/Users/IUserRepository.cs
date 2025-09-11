@@ -13,4 +13,6 @@ public interface IUserRepository
         Email email,
         CancellationToken cancellationToken = default
     );
+
+    
 }
