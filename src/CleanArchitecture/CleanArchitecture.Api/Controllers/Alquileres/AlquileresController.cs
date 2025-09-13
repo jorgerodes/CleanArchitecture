@@ -1,5 +1,7 @@
 using System.ComponentModel;
 using System.Security.Cryptography.X509Certificates;
+using Asp.Versioning;
+using CleanArchitecture.Api.Utils;
 using CleanArchitecture.Application.Alquileres.GetAlquiler;
 using CleanArchitecture.Application.Alquileres.ReservarAlquiler;
 using MediatR;
@@ -8,7 +10,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace CleanArchitecture.Api.Controllers.Alquileres;
 
 [ApiController]
-[Route("api/Alquileres")]
+[ApiVersion(ApiVersions.V1)]
+[Route("api/v{version:apiVersion}/Alquileres")]
 public class AlquileresController : ControllerBase
 
 {

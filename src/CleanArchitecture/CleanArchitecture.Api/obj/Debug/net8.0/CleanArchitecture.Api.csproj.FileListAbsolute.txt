@@ -78,3 +78,7 @@ C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.
 C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
 C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\LinqKit.Core.dll
 C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\LinqKit.Microsoft.EntityFrameworkCore.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\CleanArchitecture\src\CleanArchitecture\CleanArchitecture.Api\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
