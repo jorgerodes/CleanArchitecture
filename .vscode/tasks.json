@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "../../CleanArquitecture.sln",
+                "${workspaceFolder}/CleanArquitecture.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],

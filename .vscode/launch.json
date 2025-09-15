@@ -6,9 +6,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/net8.0/CleanArchitecture.Api.dll",
+            "program": "${workspaceFolder}/src/CleanArchitecture/CleanArchitecture.Api/bin/Debug/net8.0/CleanArchitecture.Api.dll",
             "args": [],
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/src/CleanArchitecture/CleanArchitecture.Api",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",
