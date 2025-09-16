@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace CleanArchitecture.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250907162404_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250916092355_initialcreate")]
+    partial class initialcreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -317,6 +317,41 @@ namespace CleanArchitecture.Infrastructure.Migrations
                         .HasName("pk_vehiculos");
 
                     b.ToTable("vehiculos", (string)null);
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Infrastructure.Outbox.OutboxMessage", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("jsonb")
+                        .HasColumnName("content");
+
+                    b.Property<string>("Error")
+                        .HasColumnType("text")
+                        .HasColumnName("error");
+
+                    b.Property<DateTime>("OcurredOnUtc")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("ocurred_on_utc");
+
+                    b.Property<DateTime?>("ProcesedOnUtc")
+                        .HasColumnType("timestamp with time zone")
+                        .HasColumnName("procesed_on_utc");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("type");
+
+                    b.HasKey("Id")
+                        .HasName("pk_outbox_messages");
+
+                    b.ToTable("outbox_messages", (string)null);
                 });
 
             modelBuilder.Entity("CleanArchitecture.Domain.Alquileres.Alquiler", b =>

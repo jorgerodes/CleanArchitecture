@@ -1,4 +1,7 @@
 
+using Asp.Versioning;
+using Asp.Versioning.Builder;
+using CleanArchitecture.Api.Controllers.Alquileres;
 using CleanArchitecture.Api.Documentation;
 using CleanArchitecture.Api.Extensions;
 using CleanArchitecture.Api.OptionsSetup;
@@ -47,6 +50,12 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
+
+app.MapGet("/", () => "Clean Architecture API");
+
+
+
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -80,6 +89,17 @@ app.UseAuthorization();
 
 
 app.MapControllers();
+
+ApiVersionSet apiVersion = app
+    .NewApiVersionSet()
+    .HasApiVersion(new ApiVersion(1))
+    .Build();
+
+var routeGroupBuilder = app.MapGroup("/api/v{version:apiVersion}")
+                           .WithApiVersionSet(apiVersion);
+
+routeGroupBuilder.MapAlquilerEndpoints();
+
 app.Run();
 
 

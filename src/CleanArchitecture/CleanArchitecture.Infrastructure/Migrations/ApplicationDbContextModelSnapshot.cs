@@ -324,12 +324,9 @@ namespace CleanArchitecture.Infrastructure.Migrations
                         .HasColumnName("id");
 
                     b.Property<string>("Content")
+                        .IsRequired()
                         .HasColumnType("jsonb")
                         .HasColumnName("content");
-
-                    b.Property<string>("Data")
-                        .HasColumnType("text")
-                        .HasColumnName("data");
 
                     b.Property<string>("Error")
                         .HasColumnType("text")
@@ -339,11 +336,12 @@ namespace CleanArchitecture.Infrastructure.Migrations
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("ocurred_on_utc");
 
-                    b.Property<DateTime>("ProcesedOnUtc")
+                    b.Property<DateTime?>("ProcesedOnUtc")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("procesed_on_utc");
 
                     b.Property<string>("Type")
+                        .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("type");
 

@@ -1,6 +1,8 @@
 using System.Threading.Tasks;
 using Bogus;
 using CleanArchitecture.Application.Abstractions.Data;
+using CleanArchitecture.Domain.Roles;
+using CleanArchitecture.Domain.User;
 using CleanArchitecture.Domain.Users;
 using CleanArchitecture.Domain.Vehiculos;
 using CleanArchitecture.Infrastructure;
@@ -47,6 +49,21 @@ public static class SeedDataExtensions
 
                 context.Add(user2);
 
+                //Roles de Usuario
+                var user_role = new UserRole
+                {
+                    UserId = user.Id,
+                    RoleId = Role.Cliente.Id
+                };              
+                context.Add(user_role);
+
+                var user_role2 = new UserRole
+                {
+                    UserId = user2.Id,
+                    RoleId = Role.Admin.Id
+                };
+                context.Add(user_role2);
+                
                 await context.SaveChangesAsync();
             }
         }

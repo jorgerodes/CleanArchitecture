@@ -37,7 +37,7 @@ public sealed class ApplicationDbContext : DbContext, IUnitOfWork
         {
 
             //await PublishDomainEventsAsync();
-            AddDomainEventsToOutboxMessages();
+            AddDomainEventsToOutboxMessages(); 
         
             var result = await base.SaveChangesAsync(cancellationToken);
 

@@ -34,6 +34,8 @@ public class PrecioService
                 tipoMoneda);
         }
 
+        
+
         var precioTotal = Moneda.Zero(tipoMoneda);
 
         precioTotal += precioPorPeriodo;
