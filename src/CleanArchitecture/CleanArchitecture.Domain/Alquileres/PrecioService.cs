@@ -40,7 +40,7 @@ public class PrecioService
 
         precioTotal += precioPorPeriodo;
 
-        if (vehiculo.Mantenimiento!.IsZero)
+        if (!vehiculo.Mantenimiento!.IsZero)
         {
             precioTotal += vehiculo.Mantenimiento;
         }

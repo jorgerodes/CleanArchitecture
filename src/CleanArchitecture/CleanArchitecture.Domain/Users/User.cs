@@ -1,4 +1,5 @@
 
+using System.IO.Compression;
 using CleanArchitecture.Domain.Abstractions;
 using CleanArchitecture.Domain.Roles;
 using CleanArchitecture.Domain.users.Events;
@@ -8,6 +9,7 @@ namespace CleanArchitecture.Domain.Users;
 
 public sealed class User : Entity<UserId>
 {
+    private readonly List<Role> _roles = new();
     private User() { }
     private User(
                 UserId id,
@@ -44,10 +46,13 @@ public sealed class User : Entity<UserId>
 
         user.RaiseDomainEvent(new UserCreateDomainEvent(user.Id!));
 
+        user._roles.Add(Role.Cliente);
+
+
         return user;
     }
-    
-    public ICollection<Role>? Roles { get; set; }
+
+    public IReadOnlyCollection<Role>? Roles => _roles.ToList();
 
 
 }

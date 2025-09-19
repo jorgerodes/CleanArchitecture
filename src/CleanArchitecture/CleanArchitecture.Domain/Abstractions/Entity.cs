@@ -1,10 +1,14 @@
 
+using CleanArchitecture.Domain.Roles;
+
 namespace CleanArchitecture.Domain.Abstractions;
 
 public abstract class Entity<TEntityId> : IEntity
 {
+    
+    private readonly List<Role> _roles = new();
     protected Entity()
-    { 
+    {
 
     }
     private readonly List<IDomainEvent> _domainEvents = new();
