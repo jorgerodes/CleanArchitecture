@@ -41,7 +41,7 @@ internal sealed class ReservarAlquilerDomainEventHandler
             return;
         }
 
-        await _emailService.SendAsync(user.Email!,
+         _emailService.Send(user.Email!.Value,
         "Alquiler reservado",
         "Tienes que confirmar esta reserva, de lo contrario será cancelada");
     }

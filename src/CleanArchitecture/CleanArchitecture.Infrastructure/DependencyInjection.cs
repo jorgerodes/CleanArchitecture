@@ -59,7 +59,7 @@ public static class DependencyInjection
 
         services.AddTransient<IDateTimeProvider, DateTimeProvider>();
         services.AddTransient<IEmailService, EmailService>();
-
+        
         var connectionString = configuration.GetConnectionString("ConnectionString") ?? throw new ArgumentException(nameof(configuration));
 
         services.AddDbContext<ApplicationDbContext>(options =>
