@@ -1,0 +1,1787 @@
+[
+  {
+    "FlightKey": "2f7b213f-423d-4623-8ba0-4b23aa85012b",
+    "FlightNumber": "VY4557",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 79.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 69.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "44393356-676f-4eb6-9c03-e572bd3bba6f",
+    "FlightNumber": "VY7961",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "5a0795ec-a8b7-47cb-9fa9-9730eee4b1e9",
+    "FlightNumber": "VY8140",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "220689d5-9781-4bcd-8d35-934b888aaf67",
+    "FlightNumber": "VY9566",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "f7beebda-add4-48eb-b457-6d3d616129d2",
+    "FlightNumber": "VY1764",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 59.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 49.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "2590967a-898b-4eae-97ef-6fb8502c2e4e",
+    "FlightNumber": "VY4231",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 69.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 59.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "07665ed1-c853-468c-a05a-5c8912b3bec9",
+    "FlightNumber": "VY9393",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "9b4fa53b-6d96-40c1-a5da-ff6558e38945",
+    "FlightNumber": "VY4110",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "e0129ae3-99ec-4831-a52d-7435587daee5",
+    "FlightNumber": "VY6485",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 59.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 49.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "3c7df334-1247-45fd-a1eb-afd1ae3e25e1",
+    "FlightNumber": "VY7193",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 79.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 69.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "04814840-7303-467f-b31c-33ee5735a00e",
+    "FlightNumber": "VY4064",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 69.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 59.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "acde36b8-ade7-4bc5-8cf0-9e424e294ba2",
+    "FlightNumber": "VY1260",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "ff9042ba-737e-497e-8345-ab6c8db637fc",
+    "FlightNumber": "VY5172",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "8e3e80e2-d1b3-4617-b7ff-bfd54f10c31c",
+    "FlightNumber": "VY8192",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 59.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 49.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "918b1b02-30c1-485f-acf2-c5bf9c8098fb",
+    "FlightNumber": "VY9249",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 79.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 69.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "3c46c116-d83c-45f1-9699-0cb120b16be2",
+    "FlightNumber": "VY8236",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 59.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 49.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "5846cadb-a6f0-4e4a-a318-c543fb7bb42e",
+    "FlightNumber": "VY1912",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 69.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 59.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "74bef256-6645-4733-b9e2-7f972d85eb7d",
+    "FlightNumber": "VY2562",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "40c3f48b-6cf1-4b52-b1f4-a4998014fc88",
+    "FlightNumber": "VY7125",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "90e0d832-8a8d-44b5-87fd-620a0e712933",
+    "FlightNumber": "VY1332",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "f836845a-970d-4680-8d0c-82af6e632dc5",
+    "FlightNumber": "VY5152",
+    "FlightDate": "2023-03-16T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 79.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 69.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "6a7b0fb3-4b69-43fc-a810-f86d48f761ca",
+    "FlightNumber": "VY8966",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 59.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 49.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "b9da43db-d6b9-4bc2-a631-aa3666300321",
+    "FlightNumber": "VY3901",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 79.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 69.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "44728e1e-ad62-46b5-a587-eddf93c3df5c",
+    "FlightNumber": "VY3227",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 69.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 59.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "0c572644-a83f-41cf-8d33-1114990349ad",
+    "FlightNumber": "VY7384",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "aeed67a0-3e5c-44a2-a003-afd5981955a1",
+    "FlightNumber": "VY7563",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "d2e4fc26-3427-4c5d-a15e-804aaf933e9e",
+    "FlightNumber": "VY5213",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "70e2159c-4c96-46c3-b62c-96de46938b2e",
+    "FlightNumber": "VY9728",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 59.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 49.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "0f2f0ba3-4b49-46e1-808d-9c69cbe327c7",
+    "FlightNumber": "VY9800",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "c98671b1-0b0e-4de9-a289-c86beedabba0",
+    "FlightNumber": "VY8200",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "b402c89f-3114-4505-bd70-d88c63071b6a",
+    "FlightNumber": "VY5243",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "eaeaa3b0-b79a-41f4-84b9-586299a480b7",
+    "FlightNumber": "VY5323",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 59.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 49.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "e91e392b-b425-4b77-a5d1-61b794e1b242",
+    "FlightNumber": "VY2372",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 59.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 49.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "bf4e7219-452a-47a6-a091-ea946c2f2c74",
+    "FlightNumber": "VY0243",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "1e424398-641a-410f-b3d7-efe051091d78",
+    "FlightNumber": "VY7922",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 69.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 59.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "f7394622-c7e6-4bd0-8f17-31709ac59303",
+    "FlightNumber": "VY5718",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 79.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 69.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "19bdfb9e-61a7-478a-95fb-bc736e343e24",
+    "FlightNumber": "VY3478",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "97924f28-728d-4033-b96c-2a4496122f6d",
+    "FlightNumber": "VY6650",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "8344420b-5952-4943-8c84-d98cbfc66dfe",
+    "FlightNumber": "VY7483",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "9dd4635c-0b96-4202-9e89-a9ced10002d0",
+    "FlightNumber": "VY9193",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "82396bc5-7602-4cf2-8ebe-91f79f6010a9",
+    "FlightNumber": "VY3438",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "180bf7c7-d8b4-4d42-9ce5-82cd0a4b753c",
+    "FlightNumber": "VY1459",
+    "FlightDate": "2023-03-17T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 79.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 69.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "1f47a252-42d1-43ca-930d-89e85eb7883a",
+    "FlightNumber": "VY6627",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 79.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 69.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "7edb31be-7930-4451-a71a-39e06a86f934",
+    "FlightNumber": "VY9236",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "775e263b-f4d1-4f94-aeb5-c257825bf005",
+    "FlightNumber": "VY1318",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "3e255490-1783-4290-847d-75a947ccd975",
+    "FlightNumber": "VY6495",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "98667884-5e99-496a-885a-293c337ca293",
+    "FlightNumber": "VY2553",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "c36819b4-f193-419b-9d87-a8d983dadeed",
+    "FlightNumber": "VY1212",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "d9ab6d35-0fc2-47f0-b561-f36ebb5d1cc8",
+    "FlightNumber": "VY0370",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "a515ae12-99c5-4be0-b00b-17abe22ee438",
+    "FlightNumber": "VY9708",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "d5a28cb8-3453-48c6-952b-8c2b9d383649",
+    "FlightNumber": "VY0015",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "f0791427-dc9d-4f16-b23d-95822bf02f3a",
+    "FlightNumber": "VY2525",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 69.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 59.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "c719c7ff-1c7e-4b11-b5e2-56058c1a24fe",
+    "FlightNumber": "VY2325",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 69.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 59.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "cd66c623-25bf-4313-830b-0a5db7c29af1",
+    "FlightNumber": "VY4658",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 59.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 49.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "363243d9-1802-4a48-9020-f32433982b31",
+    "FlightNumber": "VY3941",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "9b1499d2-4954-455d-9a28-6b3f431cab19",
+    "FlightNumber": "VY1361",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "176f4620-be5b-4c84-9f52-73a3c278ea0c",
+    "FlightNumber": "VY7956",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "df2c31d4-a808-4e22-b483-d55b485543a0",
+    "FlightNumber": "VY0136",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "3a71bebc-800b-4c40-af86-a0c0d1fd8561",
+    "FlightNumber": "VY5015",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "4ee63277-d76b-4239-9be9-b94611a126cb",
+    "FlightNumber": "VY6495",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 59.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 49.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "7296345e-624f-473c-86ac-e87dfe12c3a8",
+    "FlightNumber": "VY8815",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "5003ae24-389a-403e-97b4-1a3aad32e9fa",
+    "FlightNumber": "VY5540",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "b4eff218-0be1-486a-a97e-561330ca82b4",
+    "FlightNumber": "VY5728",
+    "FlightDate": "2023-03-18T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "68ae7c4d-72ef-4e30-a4d7-01d2d1204239",
+    "FlightNumber": "VY3178",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 79.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 69.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "90e900fe-ddeb-455f-bbdf-a78116344bf1",
+    "FlightNumber": "VY6935",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 69.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 59.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "d0041531-00a9-4b0b-82ee-edb56bccf3f9",
+    "FlightNumber": "VY1449",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 69.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 59.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "28778582-fc54-43ca-9196-e02bd35666c2",
+    "FlightNumber": "VY9320",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "edeffc66-4b31-4a67-a4bb-98a6c4f40fd5",
+    "FlightNumber": "VY8858",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "57898bd7-f56c-496d-9fa9-31fb381cbd32",
+    "FlightNumber": "VY2295",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "0b02fdd3-b481-44a8-b563-37fd09fb2eb2",
+    "FlightNumber": "VY0212",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "9a2d8d1c-bca8-4e09-92c0-7c37a84a9f21",
+    "FlightNumber": "VY0428",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "8bba726e-267a-49f9-a790-92bfbf4190b5",
+    "FlightNumber": "VY4024",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "fcb9ea89-7ef6-424f-9476-89641b9d0fd5",
+    "FlightNumber": "VY0240",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "ad776993-1cf7-4de7-8343-068d17a052af",
+    "FlightNumber": "VY0541",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "69572c8d-80c5-4c79-8a7c-e4f979a1af6f",
+    "FlightNumber": "VY6279",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "4d805406-a842-4ad8-998c-b8ea65c36d6b",
+    "FlightNumber": "VY2980",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "0ad140ba-c89e-48a5-a5b4-4e4490809df8",
+    "FlightNumber": "VY3458",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 59.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 49.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "45e24483-bced-48a4-97ce-23c01b043892",
+    "FlightNumber": "VY0449",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "f14bf779-27ed-4127-b9ff-aabe5e8bf361",
+    "FlightNumber": "VY0011",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "1e2cad2a-5cf0-42ba-bc8e-94e604002447",
+    "FlightNumber": "VY0973",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 79.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 69.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "187ac579-e4da-40b2-a5f1-45a3fac9b19f",
+    "FlightNumber": "VY4464",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "a4ad0eab-5994-43f8-adfe-405ef0d116d8",
+    "FlightNumber": "VY0946",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 69.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 59.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "c0fc211a-0d46-47de-a37f-23aaaf3bdd50",
+    "FlightNumber": "VY0543",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 69.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 59.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "0a12a103-ee7f-4293-873f-efc7eb3fa115",
+    "FlightNumber": "VY8253",
+    "FlightDate": "2023-03-19T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "835d035f-2d3e-4e27-b45c-074ec9bb8edc",
+    "FlightNumber": "VY0469",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "e9e9f4b2-eaa1-4f17-90e2-afa87d463bd4",
+    "FlightNumber": "VY5567",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 79.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 69.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "00fee41b-43e8-421a-a7c3-8db5f1d90354",
+    "FlightNumber": "VY4997",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "AMS",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "483b3fa7-3cef-4545-9d11-3cf925dea0c3",
+    "FlightNumber": "VY2142",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "830b218c-521e-46bf-ab51-8a503a5cdb4a",
+    "FlightNumber": "VY9663",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "0f728d70-f952-45fa-80a3-4fc8f1299629",
+    "FlightNumber": "VY9971",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BER",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 79.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 69.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "e6abe6c3-6e96-4b09-9a5a-3d3ed9692ce6",
+    "FlightNumber": "VY1156",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "56c02d58-bbaa-4341-884e-7a5e72eab2df",
+    "FlightNumber": "VY9905",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "bc4d8b0b-c603-40fa-baea-4635d1bd3c55",
+    "FlightNumber": "VY7565",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "BIO",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "e27bc5ee-d808-42e7-ab2b-f2ae88782395",
+    "FlightNumber": "VY4615",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "d04645b0-44dc-4ca6-b7d3-e92a1d004fea",
+    "FlightNumber": "VY8832",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "3ab53a60-c9d8-4269-a99e-fb310ffbb415",
+    "FlightNumber": "VY7085",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "LON",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 29.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 19.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "193cc7e8-444d-4085-9991-88790aa8f1c7",
+    "FlightNumber": "VY3579",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 59.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 49.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "b367ab8b-5292-43ef-83df-e6d0bda15300",
+    "FlightNumber": "VY5400",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 89.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 79.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "67ca73c7-06de-439d-9371-cc002b9823db",
+    "FlightNumber": "VY6140",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PAR",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "48bb0f67-1e4e-4fcd-b87c-b69a1f7e0ffc",
+    "FlightNumber": "VY1938",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "fdc1b427-9082-4163-ab44-06d8ee46c3bf",
+    "FlightNumber": "VY8813",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 69.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 59.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "8790c658-2bb6-4e37-a01a-24c79d0699a6",
+    "FlightNumber": "VY6973",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "PMI",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 79.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 69.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "828d7c54-67b7-4919-8758-acfebc2109dc",
+    "FlightNumber": "VY8653",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 49.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 39.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "2c5ad4ed-6e7a-4165-b9f6-fc7894edee5d",
+    "FlightNumber": "VY0131",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  },
+  {
+    "FlightKey": "e754fd10-2909-4fc0-9a7e-69d4f08c6d02",
+    "FlightNumber": "VY4276",
+    "FlightDate": "2023-03-20T00:00:00+01:00",
+    "Origin": "BCN",
+    "Destination": "SVQ",
+    "PaxPrice": [
+      {
+        "Type": "ADT",
+        "Price": 39.99
+      },
+      {
+        "Type": "CHD",
+        "Price": 29.99
+      }
+    ]
+  }
+]
